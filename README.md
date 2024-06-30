@@ -1,14 +1,15 @@
 # CS305
 # Briefly summarize your client, Artemis Financial, and its software requirements. Who was the client? What issue did the company want you to address?
-
+Artemis Financial is a consulting company that develops individualized financial plans for its customers, including savings, retirement, investments, and insurance. They wanted to modernize their operations and ensure the security of client data and financial information by adding secure communication mechanisms to their public web interface. Specifically, they required a file verification step in the form of a checksum to secure data transfers.
 # What did you do well when you found your client’s software security vulnerabilities? Why is it important to code securely? What value does software security add to a company’s overall well-being?
-
+I effectively identified and addressed security vulnerabilities by conducting a thorough vulnerability assessment and implementing secure coding practices. Coding securely is crucial because it protects sensitive data, prevents unauthorized access, and ensures the integrity of software systems. Software security adds significant value to a company's overall well-being by building trust with clients, safeguarding financial information, and preventing potential legal and financial repercussions from security breaches.
 # Which part of the vulnerability assessment was challenging or helpful to you?
-
+The most challenging part of the vulnerability assessment was ensuring that all potential vulnerabilities were identified and mitigated. However, this process was also incredibly helpful as it provided a comprehensive understanding of the security landscape and the importance of each security measure.
 # How did you increase layers of security? In the future, what would you use to assess vulnerabilities and decide which mitigation techniques to use?
-
+I increased layers of security by implementing encryption algorithms, generating and deploying self-signed certificates, converting HTTP to HTTPS, and conducting secondary static testing using dependency-check tools. In the future, I would continue to use comprehensive vulnerability assessment tools, adhere to industry best practices, and perform regular security audits to assess vulnerabilities and decide on appropriate mitigation techniques.
 # How did you make certain the code and software application were functional and secure? After refactoring the code, how did you check to see whether you introduced new vulnerabilities?
-
+To ensure the code and software application were functional and secure, I conducted functional testing and secondary static testing using the dependency-check tool. After refactoring the code, I reviewed the output from these tests to confirm that no new vulnerabilities were introduced.
 # What resources, tools, or coding practices did you use that might be helpful in future assignments or tasks?
-
+Resources and tools that proved helpful included the Java Keytool for generating certificates, the dependency-check tool for static testing, and secure coding guidelines. These tools and practices will be invaluable for future assignments or tasks that require secure coding and vulnerability assessments.
 # Employers sometimes ask for examples of work that you have successfully completed to show your skills, knowledge, and experience. What might you show future employers from this assignment?
+I would show future employers the completed Artemis Financial Vulnerability Assessment Report or the Artemis Financial Practices for Secure Software Report. These documents demonstrate my ability to conduct a comprehensive vulnerability assessment, implement secure coding practices, and deliver a production-quality integrated application that meets stringent security requirements.
